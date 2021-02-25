@@ -8,7 +8,7 @@
 
     <menuitem name="Plan prévisionel annuel" id="menu_plan_annuel_config" parent="menu_formation_root" action="egov_rh_ma.action_hr_plan_previsionel_annuel" sequence="1" />
     <menuitem name="Axes de formation" id="menu_axes_formation_config" parent="menu_formation_root" action="egov_rh_ma.action_hr_axes_formation" sequence="2" />
-    <menuitem name="Demande de formation" id="menu_demande_formation_config" parent="menu_formation_root" action="egov_rh_ma.action_hr_formation" sequence="3" groups="egov_rh_ma.group_hr_user_egov_rh_ma"/>
+    <menuitem name="Demande de formation" id="menu_demande_for_mation_config" parent="menu_formation_root" action="egov_rh_ma.action_hr_formation" sequence="3" />
       <delete model="ir.ui.menu" id="egov_rh_ma.menu_action_hr_previsionel_annuel"></delete>
       <delete model="ir.ui.menu" id="egov_rh_ma.menu_action_hr_axes_formation"></delete>
       <delete model="ir.ui.menu" id="egov_rh_ma.menu_action_hr_formation"></delete>
